@@ -1,0 +1,79 @@
+.floral-white-background {
+  background-color: #ffffff;
+  padding: 2%;
+}
+html {
+  font-family: "Oswald", sans-serif;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  color: #000000;
+  font-size: 60pt;
+}
+
+h3 {
+  color: #000000;
+  font-size: 15pt;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.align-middle {
+  text-align: center;
+}
+
+.li-center {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-p {
+  text-align: center;
+  font-size: 25px;
+}
+
+ul {
+  padding: 0;
+  display: table;
+  margin: 0 auto;
+  text-align: right;
+}
+
+footer {
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+
+.copyright {
+  position: absolute;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  line-height: 40px;
+  font-size: 0.9em;
+  text-align: center;
+  bottom: 0;
+}
+
+li {
+  list-style-position: inside;
+}
+
+.align-left {
+  text-align: left;
+}

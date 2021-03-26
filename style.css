@@ -2,6 +2,7 @@
   background-color: #ffffff;
   padding: 2%;
 }
+/* Font from googlefonts */
 html {
   font-family: "Oswald", sans-serif;
 }
@@ -59,7 +60,7 @@ footer {
   height: 300px;
   width: 100%;
 }
-
+/* position on very bottom */
 .copyright {
   position: absolute;
   width: 100%;
@@ -78,6 +79,19 @@ li {
   text-align: left;
 }
 
+a:hover {
+  color: orange;
+}
+
+a:visited {
+  color: red;
+}
+
+a:focus {
+  color: yellow;
+}
+
+/* mobile friendly css */
 @media only screen and (max-width: 600px) {
   body {
     background-color: lightblue;
